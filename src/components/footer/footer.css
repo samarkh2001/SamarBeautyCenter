@@ -1,0 +1,46 @@
+.footer_container{
+    bottom: 0;
+    position: absolute;
+    background-color: #212529;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.row p{
+    text-align: center;
+}
+
+.footer_container img{
+    width: 35px;
+    height: 35px;
+    transition: 0.5s;
+}
+
+.visit_label{
+    margin-top: -2rem;
+}
+.footer_container .social_icons{
+    text-align: center;
+}
+
+.twitter{
+    margin-right: 4rem;
+}
+.facebook{
+    margin-left: 4rem;
+}
+
+.social_icons img:hover{
+    cursor: pointer;
+    border-radius: 50%;
+}
+.twitter:hover{
+    box-shadow: 0 5px 15px rgb(37, 150, 190);
+}
+.instagram:hover{
+    border-radius: 5%;
+    box-shadow: 0 5px 15px #ea0a29;
+}
+.facebook:hover{
+    box-shadow: 0 5px 15px #058ef1;
+}

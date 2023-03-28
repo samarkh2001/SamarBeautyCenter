@@ -1,0 +1,21 @@
+.nav_container img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.nav_container img:hover {
+  box-shadow: 0 5px 15px #e6e6e6;
+}
+
+.logo {
+  font-family: Lucida Calligraphy;
+  font-weight: bold;
+  color: #f5ebeb;
+}
+
+#navbar {
+  background-color: #867070;
+}
