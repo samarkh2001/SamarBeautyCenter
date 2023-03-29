@@ -1,0 +1,83 @@
+.landing_page {
+  margin-top: 2.5rem !important;
+  font-size: 28px;
+  height: 80vh;
+}
+.pic {
+  margin-top: 30px;
+  height: 500px;
+  width: 500px;
+}
+
+.productsImg {
+  height: 200px;
+  width: 200px;
+  align-self: center;
+}
+
+.productName {
+  color: #8d7b68;
+}
+
+.productTilte {
+  color: #e6e6e6;
+  float: left !important;
+}
+
+.productPrice {
+  color: #8d7b68;
+  font-size: 25px !important;
+}
+
+.landing_content {
+  color: #e6e6e6;
+  background-color: #8d7b68;
+  text-align: center;
+  margin-bottom: 5rem !important;
+  border-radius: 10px;
+  padding: 1rem;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 1s all ease-in-out;
+}
+
+.landing_content.active {
+  transform: translateY(0);
+  border-radius: 10px;
+  opacity: 1;
+}
+
+#about_cardImg {
+  width: fit-content;
+  height: fit-content;
+  align-self: center;
+}
+
+.card-title {
+  float: left;
+  font-size: 34px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+.contact_container {
+  text-align: left;
+}
+
+.contact_buttons {
+  padding-top: 1rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+#contact_send {
+  margin-right: 3rem;
+}
+.contact_msg {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#messageContent {
+  height: 10rem;
+}
