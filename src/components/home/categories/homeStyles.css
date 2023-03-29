@@ -9,7 +9,7 @@
   width: 500px;
 }
 .productCard :hover{
-  box-shadow: 10px 10px 10px 10px;
+  box-shadow: 3px 3px 3px 3px;
   cursor: pointer;
 }
 
@@ -17,6 +17,9 @@
   height: 200px;
   width: 200px;
   align-self: center;
+}
+.removeGlow:hover{
+  box-shadow: none;
 }
 
 .productName {
