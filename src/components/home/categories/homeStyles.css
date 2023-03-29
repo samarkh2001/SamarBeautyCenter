@@ -8,6 +8,10 @@
   height: 500px;
   width: 500px;
 }
+.productCard :hover{
+  box-shadow: 10px 10px 10px 10px;
+  cursor: pointer;
+}
 
 .productsImg {
   height: 200px;
