@@ -11,11 +11,16 @@
 }
 
 .logo {
+  font-size: x-large;
   font-family: Lucida Calligraphy;
   font-weight: bold;
   color: #f5ebeb;
 }
+.logo:hover {
+  text-shadow: 0.4px 0.4px #f5ebeb;
+  color: #f5ebeb;
+}
 
 #navbar {
-  background-color: #867070;
+  background-color: #8d7b68;
 }
