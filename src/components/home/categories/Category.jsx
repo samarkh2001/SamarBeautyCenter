@@ -8,26 +8,26 @@ function Category(props){
         <h2 className="productTitle">{props.title}</h2>
         <Row xs={1} md={2} className="g-5">
           {props.productsArray.map((product) => (
-            <div className="productCard">
-            <Col >
-              <Card>
-                <Card.Img
-                  variant="top"
-                  src={product.path}
-                  className="productsImg"
-                />
-                <Card.Body>
-                  <Card.Title className="productName">{product.name}</Card.Title>
-                </Card.Body>
-                <div>
-                  <center>
-                    <Card.Text className="productPrice">
-                      Price: {product.price}$
-                    </Card.Text>
-                  </center>
-                </div>
-              </Card>
-            </Col>
+            <div className="productCard" key={product.path}>
+              <Col >
+                <Card>
+                  <Card.Img
+                    variant="top"
+                    src={product.path}
+                    className="productsImg removeGlow"
+                  />
+                  <Card.Body className="removeGlow">
+                    <Card.Title className="productName removeGlow">{product.name}</Card.Title>
+                  </Card.Body>
+                  <div>
+                    <center>
+                      <Card.Text className="productPrice removeGlow">
+                        Price: {product.price}$
+                      </Card.Text>
+                    </center>
+                  </div>
+                </Card>
+              </Col>
             </div>
           ))}
         </Row>
